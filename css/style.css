@@ -1,0 +1,64 @@
+
+
+.imgSize{
+    widows: auto; 
+    height: auto;
+}
+.imgBorder{
+    border-width: 5px;
+    border-color: salmon;
+    border-style: solid;
+    border-radius: 50%;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-family: cursive, sans-serif;
+}
+
+#underImg{
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive,sans-serif ;
+}
+
+body{
+    background-color:navajowhite;
+}
+
+#brief-timeline{
+    font-family:cursive, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.listText{
+    font-size: 15px;
+    font-family:
+    font-weight: 700;
+}
+
+ul{
+    list-style-type: square;
+}
+
+li{
+    font-family: cursive, sans-serif;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #fartherDown{
+      font-family:'Piedra', cursive;
+
+  }
