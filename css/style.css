@@ -1,4 +1,74 @@
+/*code for mobile responsiveness */
+@media (max-width: 400px){
+    h1{
+        font-size: 20px;
+    }
 
+    #underImg{
+        font-size: 15px;
+        text-align: center;
+        font-family: cursive,sans-serif ;
+        opacity: 1.0;
+    }
+    li{
+        font-size: 10px;
+    }
+
+    .center{
+        display:block;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .button {
+        background-color: #7DA1BF
+        ;
+        border: solid black;
+        border-radius: 8px;
+        box-shadow: 3px 3px 3px black;
+        color: white;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+    .mobileHide{
+        display: none;
+    }
+    .foreground{
+        width: 400px;
+        height: 1875px;
+        background-color: white;
+        margin-left:auto;
+        margin-right: auto;
+        opacity: .8;
+        border-radius: 20px;
+    }
+
+
+    .centerMobile{
+        display: flex;
+        align-items: center;
+    }
+}
+/*code to hide mobile buttons*/
+@media (min-width: 800px){
+    .mobile{
+        display: none;
+    }
+}
+/*desktop webpage styling*/
+.foreground{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
 
 .imgSize{
     widows: auto; 
@@ -6,37 +76,44 @@
 }
 .imgBorder{
     border-width: 5px;
-    border-color: salmon;
+    border-color: #7DA1BF
+    ;
     border-style: solid;
     border-radius: 50%;
+    box-shadow: 15px 25px 10px gray;
+
 }
 h1{
     font-size: 50px;
     text-align: center;
     font-weight: 600;
     font-family: cursive, sans-serif;
+    opacity: 1.0;
 }
 
 #underImg{
     font-size: 20px;
     text-align: center;
     font-family: cursive,sans-serif ;
+    opacity: 1.0;
 }
 
 body{
-    background-color:navajowhite;
+    background:linear-gradient(135deg, #F6CEAD, #4DB7AD);
 }
 
 #brief-timeline{
     font-family:cursive, sans-serif;
     text-align: center;
     text-decoration: underline;
+    opacity: 1;
 }
 
 .listText{
     font-size: 15px;
     font-family:
     font-weight: 700;
+    opacity: 1;
 }
 
 ul{
@@ -45,6 +122,7 @@ ul{
 
 li{
     font-family: cursive, sans-serif;
+    opacity: 1;
 }
 
 .link{
@@ -60,5 +138,6 @@ li{
 
   #fartherDown{
       font-family:'Piedra', cursive;
+      opacity: 1;
 
   }
