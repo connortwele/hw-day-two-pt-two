@@ -55,7 +55,7 @@
     }
 }
 /*code to hide mobile buttons*/
-@media (min-width: 800px){
+@media (min-width: 400px){
     .mobile{
         display: none;
     }
